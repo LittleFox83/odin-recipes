@@ -1,12 +1,20 @@
 * {
-    background-color: lightpink;
+    background-color: rgb(248, 207, 214);
 }
 
 .main.heading {
     color: darkgreen;
     font-size: 38px;
     font-weight: 800;
-    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif
+    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px darkolivegreen;
+    border-style: solid;
+    width: 300px;
+    background-color: rgb(236, 173, 183);
+
 }
 
 img {
@@ -17,20 +25,41 @@ img {
 .list, .content{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
     font-size: 16px;
-    color: darkolivegreen;
+    color: black;
+}
+
+.list.index{
+    display: list-item;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px black;
+    border-style: solid;
+    width: 300px;
+    
 }
 
 .heading {
     color: darkgreen;
     font-size: 24px;
     font-weight: 600;
-    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif
+    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px black;
+    border-style: solid;
+    width: 300px;
 }
 
 .element {
     color:darkgreen;
     font-size: 18px;
     font-weight: 600;
-    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif
-
+    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px black;
+    border-style: solid;
+    width: 300px;
 }
